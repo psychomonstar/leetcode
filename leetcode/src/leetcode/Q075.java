@@ -8,7 +8,7 @@ package leetcode;
  */
 public class Q075 {
     public void sortColors(int[] nums) {
-        int sum0 = 0, sum1 = 0, sum2 = 0;
+        int sum0 = 0, sum1 = 0;
 		for (int i = 0; i < nums.length; i++) {
 			switch (nums[i]) {
 			case 0:
